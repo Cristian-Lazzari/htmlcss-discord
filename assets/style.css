@@ -169,39 +169,68 @@ p{
     color: white;
 }
 footer{
-    background-color: black;
+    background-color:  rgb(61, 61, 61);
     display: flex;
-    justify-content: center;
-    border-bottom: 2px solid white;
-    padding-bottom: 1rem;
+    justify-content: space-between;
+    padding-inline: 2rem;
+    color: white;
+    font-size: 0.7rem;
+    gap: 2rem;
+    padding-bottom: 3rem;
+}
+.your-place{
+    max-width: 25%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+    flex-shrink: 1;
+}
+.your-place img{
+    max-height: 0.8rem;
+}
+.your-place h3{
+    font-size: 1.4rem;
+}
 
+.your-place .social{
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
 
 }
-.colonnina, .colonnona{
-    height: 100px;
-    border: 2px solid black;
-    flex: 0 1 auto;
-    flex-grow: 1;
+
+.info{
+    flex-shrink: 1;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
 }
-.colonnina{
-    background-color: aquamarine;
-    width: 10%;
+.info ul {
+    list-style: none;
+    flex: 1 1 auto;
 }
-.colonnona{
-    background-color: rgb(1, 177, 118);
-    width: 30%;
-    
+.info-list li:first-child, h3{
+    color: rgb(122, 170, 253);
 }
+
 .bottom-footer{
-    background-color: black;
+    background-color: rgb(61, 61, 61);
     height: 30px;
     display: flex;
     justify-content: center;
-    align-items: end;
+    align-items: flex-start;
+    min-height: 4rem;
     
 }
 .footer-bar{
-    background-color: yellow;
-    width: 70%;
-    height: 50%;
+    padding-top: 0.5rem;
+    width: 100%;
+    
+    margin-inline: 2rem;
+    border-top: 2px solid rgb(122, 170, 253);
+    
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8em;
 }
