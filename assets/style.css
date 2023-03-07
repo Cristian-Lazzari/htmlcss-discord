@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    box-sizing: content-box;
+}
+header{
+    background-image: url("img/jumbo.png");
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding-bottom: 1rem;
+    align-items:  center;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+nav{
+    height: 2rem;
+    width: 100%; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10%;
+
+
+}
+.barra-link{   
+    height: 100%;
+    width: 100%; 
+    display: flex; 
+    flex-wrap: wrap;
+    
+}
+.logo-discord{
+    max-height: 100%;
+    width: min-content;
+
+}
+.logo-discord img{
+    height: 100%;
+
+}
+.barra-link ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+}
+.barra-link ul li{
+    padding-right: 1rem;
+}
+
+
+
+.main-header{
+    background-color: pink;
+    height: 80px;
+    width: 60%;
+
+}
+
+.container-1{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    
+}
+.photo, .description{
+    height: 120px;
+
+}
+
+.photo{
+    background-color: aquamarine;
+    width: 40%;
+    flex-shrink: 1;
+
+    
+}
+.description{
+    background-color: rgb(76, 126, 110);
+    width: 20%;
+    flex-shrink: 1;
+}
+
+.container-2{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(183, 183, 183);
+}
+.container-3{
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    background-color: rgb(172, 59, 59);
+}
+.big-photo{
+    background-color: blueviolet;
+    height: 500px;
+    width: 60%;
+
+}
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    border-bottom: 2px solid white;
+    padding-bottom: 1rem;
+
+
+}
+.colonnina, .colonnona{
+    height: 100px;
+    border: 2px solid black;
+    flex: 0 1 auto;
+
+}
+.colonnina{
+    background-color: aquamarine;
+    width: 10%;
+}
+.colonnona{
+    background-color: rgb(1, 177, 118);
+    width: 30%;
+    
+}
+.bottom-footer{
+    background-color: black;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+}
+.footer-bar{
+    background-color: yellow;
+    width: 70%;
+    height: 50%;
+}
