@@ -26,6 +26,9 @@ nav{
 
 
 }
+p{
+   margin-top: 2rem;
+}
 .barra-link{   
     height: 100%;
     width: 100%; 
@@ -67,7 +70,7 @@ nav{
 }
 .white-b{
     background-color: white;
-    padding: 0.3em;
+    padding: 0.6em;
     font-size: 0.7rem;
     border-radius: 25px;
     border:1px solid white;
@@ -75,7 +78,7 @@ nav{
 }
 .black-b{
     background-color: rgb(21, 21, 21);
-    padding: 0.3em;
+    padding: 0.6em;
     font-size: 0.7rem;
     border-radius: 25px;
     border:1px solid rgb(21, 21, 21);
@@ -103,6 +106,10 @@ nav{
 }
 .cvariant{
     flex-direction: row-reverse;
+    background-color: rgb(241, 241, 241);
+}
+.end-wave{
+    transform: rotate(180deg);
 }
 .photo{
     max-height: 15rem;
@@ -118,26 +125,48 @@ nav{
     flex-shrink: 1;
 }
 
-.wave img{
-    max-height: 3rem ;
-    width: 100%;
-
+.wave-container{
+    display: flex;
+    flex-direction: column;
 }
 
 .container-3{
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding: 2rem;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: row-reverse;
-    background-color: rgb(172, 59, 59);
+    background-color: rgb(241, 241, 241);
+}
+.container-3 section p, h1{
+    margin-top: 1rem;
+    text-align: center;
+}
+.pronto{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-inline: 3rem;
+    min-height: 5rem;
+    text-align: center;
+    background-image: url("img/stars.svg");
+    background-size: contain;
+    background-repeat: no-repeat; 
 }
 .big-photo{
    
     height: 20rem;
-    width: 60%;
+    width: 80%;
 
+}
+.blu-b{
+    background-color: rgb(122, 170, 253);
+    padding: 0.6em;
+    font-size: 0.7rem;
+    border-radius: 25px;
+    border:1px solid rgb(122, 170, 253);
+    align-self: center;
+    color: white;
 }
 footer{
     background-color: black;
