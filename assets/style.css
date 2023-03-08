@@ -105,7 +105,7 @@ button:hover{
     background-color: rgb(241, 241, 241);
 }
 .end-wave{
-    transform: rotate(180deg);
+    transform: rotatex(180deg);
 }
 .photo{
     max-height: 15rem;
